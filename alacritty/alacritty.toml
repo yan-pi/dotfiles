@@ -1,0 +1,73 @@
+# background_opacity = 1.0
+live_config_reload = true
+#"window.dynamic_title" = true
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#402e2e"
+blue = "#444b4b"
+cyan = "#585c49"
+green = "#586039"
+magenta = "#614445"
+red = "#733a34"
+white = "#b0a390"
+yellow = "#8f6840"
+
+[colors.normal]
+black = "#202020"
+blue = "#535c5c"
+cyan = "#6d715e"
+green = "#5b6048"
+magenta = "#775759"
+red = "#734541"
+white = "#A89984"
+yellow = "#af865a"
+
+[colors.primary]
+background = "#282828"
+foreground = "#A89984"
+
+[cursor]
+style = "Block"
+unfocused_hollow = true
+
+[font]
+size = 12
+
+[font.bold]
+family = "Hack"
+style = "Bold"
+
+[font.italic]
+family = "Hack"
+style = "Italic"
+
+[font.normal]
+family = "Hack"
+style = "Regular"
+
+[mouse]
+hide_when_typing = false
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+# [mouse.double_click]
+# threshold = 300
+
+# [mouse.triple_click]
+# threshold = 300
+
+[scrolling]
+history = 10000
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[window.padding]
+x = 10
+y = 10
